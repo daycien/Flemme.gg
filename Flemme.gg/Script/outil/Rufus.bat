@@ -1,2 +1,3 @@
 @echo off
-start http://localhost:62354/
+
+start https://rufus.ie/fr/
