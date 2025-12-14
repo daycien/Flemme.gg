@@ -12,9 +12,3 @@ contextBridge.exposeInMainWorld('api', {
     return ipcRenderer.invoke('run-bat-admin', batName);
   }
 });
-contextBridge.exposeInMainWorld('api', {
-  runBatAdmin: (exeName) => {
-    console.log('PRELOAD → MAIN :', exeName); // debug
-    runExeAdmin: (exeName) => ipcRenderer.invoke('run-exe-admin', exeName);
-  }
-});
