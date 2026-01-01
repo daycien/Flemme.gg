@@ -133,4 +133,3 @@ Toute utilisation des fonctions d’activation doit respecter la **législation 
 ## 👨‍💻 Auteur
 
 Projet développé pour les **informaticiens de Don-Bosco**
-💡 Objectif : *moins de clics, plus d’efficacité*
